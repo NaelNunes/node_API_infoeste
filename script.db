@@ -1,0 +1,8 @@
+CREATE DATABASE infoeste; 
+
+CREATE TABLE tb_usuario (
+    usu_id INT AUTO_INCREMENT PRIMARY KEY,
+    usu_nome VARCHAR(100),
+    usu_email VARCHAR(100),
+    usu_idade INT
+);
