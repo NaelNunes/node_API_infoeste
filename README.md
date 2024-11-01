@@ -19,8 +19,8 @@ Uma API RESTful construída com Node.js e Express, utilizando o padrão MVC. Est
 
 ## Endpoints
 
-- `GET /users`: Retorna todos os usuários.
-- `GET /users/:id`: Retorna um usuário específico pelo ID.
-- `POST /users`: Cria um novo usuário.
-- `PUT /users/:id`: Atualiza um usuário existente pelo ID.
-- `DELETE /users/:id`: Deleta um usuário pelo ID.
+- `GET /listar`: Retorna todos os usuários.
+- `GET /buscar/:id`: Retorna um usuário específico pelo ID.
+- `POST /criar`: Cria um novo usuário.
+- `PUT /update/:id`: Atualiza um usuário existente pelo ID.
+- `DELETE /deletar/:id`: Deleta um usuário pelo ID.
